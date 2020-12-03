@@ -1,6 +1,6 @@
-import requests
+import requests ,os
 # server酱开关，填0不开启(默认)，填2同时开启cookie失效通知和签到成功通知
-sever = '2'
+sever = 'on'
 # 填写server酱sckey,不开启server酱则不用填（自己更改）
 sckey = 'SCU123521T49ffe7a3ba2b59b9105ce3bec15b08355fa37707333b1'
 # 填入glados账号对应cookie
